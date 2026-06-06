@@ -8,11 +8,36 @@ Welcome to the **Wanas Apps ETA Integration Suite**! This step-by-step guide wil
 
 Before you start, make sure you have:
 1. **Zoho Books Admin Access**: Admin rights are required to install and configure extensions.
-2. **Physical USB Signature Token or Smart Card**: Issued by an authorized provider (e.g., *Egypt Trust* or *Misr El-Makasa*).
-3. **USB Token Driver Installed**: Ensure the middleware software provided by your token issuer (e.g., *SafeNet Authentication Client*) is installed and running, and that it successfully detects your plugged-in USB token.
+2. **Physical USB Signature Token or Smart Card**: An active USB hardware security module (e.g., ePass2003) or electronic seal.
+3. **USB Token Driver Installed**: Ensure the middleware software provided by your token issuer (such as *SafeNet Authentication Client* or *ePass2003 Token Manager*) is installed and running, and detects your token.
 4. **Windows PC**: The local desktop companion application requires **Windows 10 or Windows 11 (64-bit)**.
 
 ---
+
+## 🔑 How to Obtain Your ETA USB Token (Egypt)
+
+If your company does not yet have an active electronic signature or seal (E-Seal), you must obtain one through an officially licensed Certification Services Provider (CSP) authorized by **ITIDA** (Information Technology Industry Development Agency).
+
+### 1. Authorized Providers (CSPs)
+You can apply for and purchase your token (such as the standard ePass2003 hardware) through these official channels:
+* **Egypt Trust**: The first and largest licensed provider in Egypt. You can apply at their main offices or select **Orange Egypt** business branches.
+* **Fixed Egypt (FEDIS / Tawqe3y)**: Provides corporate digital signatures and electronic seal contracts through their "Tawqe3y" service.
+* **El-Delta Trust**: Affiliated with El-Delta Electronic Systems and **WE (Telecom Egypt)**. You can submit requests and sign contracts at select WE customer centers across different governorates.
+* **Misr for Central Clearing, Depository and Registry (MCDR)**: Authorized to issue digital certificates and electronic seals for corporate entities.
+
+> [!TIP]
+> **Convenient Tip**: To avoid visiting a primary CSP headquarters, you can check the nearest major **Orange** or **WE (Telecom Egypt)** business branch, as their partnerships allow them to handle verification, contract signing, and token delivery locally.
+
+### 2. Company Document Checklist
+To apply for your E-Seal, bring the following documents (both originals for review and copies):
+* **Commercial Registry (سجل تجاري)**: Must be recently issued (within the last 3 months).
+* **Tax Card (بطاقة ضريبية)**: Valid copy.
+* **Articles of Incorporation (صحيفة الاستثمار/عقد التأسيس)**: Copy of company gazette or startup document.
+* **National ID / Passport**: The ID of the company's legal representative.
+* **Authorization Letter (تفويض)**: If the legal representative is not attending in person, you must provide a bank-validated authorization letter or a dynamic power of attorney allowing the delegate to sign the contract.
+
+---
+
 
 ## 🚀 Step 1: Install the Zoho Books Extension
 1. Open your **Zoho Books** dashboard.
