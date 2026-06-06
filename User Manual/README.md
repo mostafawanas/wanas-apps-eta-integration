@@ -36,7 +36,27 @@ To apply for your E-Seal, bring the following documents (both originals for revi
 * **National ID / Passport**: The ID of the company's legal representative.
 * **Authorization Letter (تفويض)**: If the legal representative is not attending in person, you must provide a bank-validated authorization letter or a dynamic power of attorney allowing the delegate to sign the contract.
 
+### 3. E-Seal Requirement & Standard Pricing
+> [!IMPORTANT]
+> **E-Seal (الختم الإلكتروني) vs. Digital Signature (التوقيع الإلكتروني)**
+> For automated system-to-system integrations (like Zoho Books) submitting directly to the ETA portal, **you must obtain a Corporate E-Seal (الختم الإلكتروني)**. Individual Corporate Digital Signatures (التوقيع الإلكتروني) are registered to individual names and are **not** supported for direct ERP submission.
+
+Below is the standard, regulated pricing structure across major providers (Egypt Trust, Fixed Egypt, and El-Delta Trust) which includes both the hardware token (physical ePass2003 device) and the issuance certificate (all taxes/VAT included):
+
+#### Corporate E-Seal (الختم الإلكتروني) — *Required for Zoho Books*
+| Validity Period | New Issuance (Includes Token + Certificate) | Renewal Price (Certificate Only) |
+| :--- | :--- | :--- |
+| **3 Months** (Temporary) | ~1,000 EGP | — |
+| **1 Year** | ~2,000 to 2,500 EGP | ~1,800 EGP |
+| **2 Years** | ~3,000 to 3,500 EGP | ~2,800 EGP |
+| **3 Years** | ~4,000 to 4,500 EGP | ~3,800 EGP |
+
+> [!TIP]
+> * **Hardware Replacement**: If you lose or damage the physical USB token during your subscription, replacing the hardware costs a flat rate of **500 EGP**.
+> * **The Multi-Year Advantage**: Choosing a **3-year bundle** saves significant overhead, as it eliminates the need to compile paper applications and visit physical branches annually for renewals.
+
 ---
+
 
 
 ## 🚀 Step 1: Install the Zoho Books Extension
