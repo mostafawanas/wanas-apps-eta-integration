@@ -104,13 +104,39 @@ If you cannot run the USB token middleware on your computer, you can register ma
 ---
 
 ## 🔑 Post-Registration: Generating Your Integration Keys
-Once you are logged into your taxpayer portal dashboard, you must register your ERP system to get the credentials needed for the Zoho Books integration:
 
-1. **Register the ERP System**:
-   - Go to your portal profile settings.
-   - Add a new **"ERP Integration"** to generate a unique **Client ID** and **Client Secret**. (Keep these safe, as you will enter them in Zoho Books).
-2. **Register Your Products**:
-   - Ensure your product inventory is registered on the portal using **GS1** codes or custom **EGS** codes linked to the Global Product Classification (GPC) system before you begin billing.
+Once your company is successfully registered on the ETA portal, you must generate a **Client ID** and **Client Secret** directly from your profile dashboard. These credentials allow Zoho Books to communicate with the ETA API.
+
+### Step-by-Step: Generating API Credentials
+
+#### 1. Log in to the Profile Dashboard
+* **Production Environment**: Navigate to [invoicing.eta.gov.eg](https://invoicing.eta.gov.eg/).
+* **Pre-Production / Sandbox Environment**: Navigate to [preprod.invoicing.eta.gov.eg](https://preprod.invoicing.eta.gov.eg/) (useful for testing and debugging).
+* Log in using your primary Administrator credentials.
+
+#### 2. Navigate to ERP System Settings
+* On the left-side main navigation menu, click on **Taxpayer Profile** (ملف المكلف).
+* Select **ERP Systems** (أنظمة الـ ERP) from the dropdown options.
+* Click the **Register ERP System** (تسجيل نظام الـ ERP) button located in the top-right corner of the dashboard view.
+
+#### 3. Define Your ERP Metadata
+In the configuration window, provide the system metadata:
+* **System Name**: Enter a recognizable identifier for your software integration (e.g., `Wanas_Apps_Zoho_Books` or `Company_ERP_Integration`).
+* **Link / URL (Optional)**: Can be left blank as Zoho Books is cloud-hosted and connects via global API endpoints.
+
+#### 4. Extract and Save Your API Keys
+* Click **Save** or **Generate**.
+* The portal will immediately generate and display your credentials:
+  - **Client ID**
+  - **Client Secret 1** (and a backup **Client Secret 2**)
+
+> [!CAUTION]
+> **API Keys Security Warning**:
+> The Client Secret is only visible **once** at the exact moment of generation. If you close or refresh the browser page without copying and saving it somewhere secure, you will never be able to view it again. If lost, you must delete that specific ERP profile entry and generate a completely new one.
+
+#### 5. Register Your Products
+Before issuing your first invoice, you must ensure your product catalog is configured on the portal:
+* Map your products to official **GS1** codes or register custom **EGS** codes linked directly to the Global Product Classification (GPC) hierarchy within the taxpayer portal interface.
 
 ---
 
