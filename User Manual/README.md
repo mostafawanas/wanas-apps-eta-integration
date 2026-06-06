@@ -57,7 +57,62 @@ Below is the standard, regulated pricing structure across major providers (Egypt
 
 ---
 
+## 🌐 Registering Your Company on the ETA Portal
 
+To configure the integration, your company must be registered on the official Egyptian Tax Authority (ETA) e-Invoicing/e-Receipt portal. There are two ways to register: **Self-Registration (online using your E-Seal)** or **Off-line Registration (in-person via your local tax office)**.
+
+Self-registration is highly recommended because it is instant and completely digital.
+
+### Route A: Online Self-Registration (Recommended)
+> [!IMPORTANT]
+> **Prerequisites for Self-Registration**:
+> - A computer running Windows 10 or Windows 11.
+> - The E-Seal USB token driver installed and running.
+> - Your E-Seal token plugged into the computer.
+
+1. **Install the ETA Registration Tool**:
+   - Plug your USB token into the computer.
+   - Go to the official ETA portal: [invoicing.eta.gov.eg](https://invoicing.eta.gov.eg/).
+   - Click the prompt to download and install the official ETA Digital Signature/E-Seal middleware utility.
+2. **Start Portal Registration**:
+   - On the portal homepage, click **"Start Registration"** (بدء التسجيل).
+   - Enter your company's 9-digit **Taxpayer Registration Number**.
+   - Accept the terms and click **Continue**.
+3. **Digitally Sign the Request**:
+   - Click **"Sign Now"** (التوقيع الآن).
+   - In the pop-up window, select your corporate E-Seal certificate.
+   - Enter your USB token PIN to authorize the signature.
+4. **Add Business Details**:
+   - Enter your official Company Email and Mobile Number.
+   - Complete the verification by entering the OTP codes sent to your phone and email.
+5. **Assign the Administrator**:
+   - Enter the National ID, name, and email of your designated primary Administrator.
+   - Click **Finish** to trigger an invitation email to their inbox.
+6. **Set Password**:
+   - Open the invitation email, click the link, and choose a secure password to activate the corporate profile.
+
+### Route B: Manual Registration (In-Person via Tax Office)
+If you cannot run the USB token middleware on your computer, you can register manually:
+1. **Prepare Your Documents**:
+   - Original and copies of your Tax Card and Commercial Registry.
+   - A formal **Authorization Letter (خطاب تفويض)** printed on company letterhead, stamped with your bank signature verification. The letter must name the designated Administrator, their National ID, phone number, and email.
+2. **Submit at the Local Office (المأمورية)**:
+   - Bring these documents to your local tax office district. An agent will verify your papers and register your company in the system.
+3. **Accept the Email Invitation**:
+   - Within 48 hours, you will receive an invitation email. Click the link to set your password and access your profile.
+
+---
+
+## 🔑 Post-Registration: Generating Your Integration Keys
+Once you are logged into your taxpayer portal dashboard, you must register your ERP system to get the credentials needed for the Zoho Books integration:
+
+1. **Register the ERP System**:
+   - Go to your portal profile settings.
+   - Add a new **"ERP Integration"** to generate a unique **Client ID** and **Client Secret**. (Keep these safe, as you will enter them in Zoho Books).
+2. **Register Your Products**:
+   - Ensure your product inventory is registered on the portal using **GS1** codes or custom **EGS** codes linked to the Global Product Classification (GPC) system before you begin billing.
+
+---
 
 ## 🚀 Step 1: Install the Zoho Books Extension
 1. Open your **Zoho Books** dashboard.
